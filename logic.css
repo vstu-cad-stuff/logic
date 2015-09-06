@@ -1,0 +1,22 @@
+html, body, #menu, canvas {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    border-right: 1px solid red;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 208px;
+    width: calc(100% - 208px);
+}
+
+canvas#static  { z-index: -1; }
+canvas#dynamic { z-index:  0; }
